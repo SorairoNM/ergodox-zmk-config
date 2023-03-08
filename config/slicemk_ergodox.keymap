@@ -66,7 +66,7 @@
 			bindings = <
 				&bootloader
 				&trans &kp F1     &kp F2         &kp F3         &kp F4          &kp F5    &trans &trans &kp F6  &kp F7    &kp F8           &kp F9         &kp F10 &trans
-				&trans &kp LBKT   &kp PG_DN      &mmv MOVE_UP   &kp PG_UP       &kp INS   &trans &trans &kp F12 &trans    &mwh SCROLL_DOWN &mwh SCROLL_UP &trans  &trans
+				&trans &kp LBKT   &kp LC(PG_DN)  &mmv MOVE_UP   &kp LC(PG_UP)   &kp INS   &trans &trans &kp F12 &trans    &mwh SCROLL_DOWN &mwh SCROLL_UP &trans  &trans
 				&trans &kp EQUAL  &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT &kp DEL                 &trans  &mkp LCLK &mkp RCLK        &trans         &trans  &trans
 				&trans &kp INT_RO &kp INT_YEN    &kp RBKT       &kp BSLH        &kp GRAVE &trans &trans &trans  &trans    &trans           &trans         &trans  &trans
 				&trans &trans     &trans         &trans         &trans                                          &trans    &trans           &trans         &trans &mo 3
