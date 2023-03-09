@@ -44,9 +44,9 @@
 				&kp CAPS   &kp A    &kp S    &kp D   &kp F    &kp G                                    &kp H     &kp J   &kp K    &kp L    &kp SEMI &kp SQT
 				&kp LSHIFT &kp Z    &kp X    &kp C   &kp V    &kp B        &mt LCTRL RET &mt RCTRL ESC &kp N     &kp M   &kp CMMA &kp DOT  &kp FSLH &kp RSHIFT
 				&kp LCTRL  &kp HOME &kp RALT &kp F19 &kp BSPC                                                    &kp SPC &kp LARW &kp RARW &kp END  &tog 1
-				                                              &mt LALT F23 &kp PG_UP     &kp HOME      &kp F22
+				                                              &mt LALT F23 &kp PG_UP     &kp HOME      &kp F18
 				                                     &kp SPC  &kp DOWN     &kp PG_DN     &kp END       &lt 2 F23 &kp F24
-				                                                           &kp UP        &kp F18
+				                                                           &kp UP        &kp F22
 			>;
 		};
 		layer_1 {
