@@ -24,14 +24,18 @@
 #define SCROLL_LEFT SCROLL_HOR(-U_MOUSE_SCROLL_MAX)
 #define SCROLL_RIGHT SCROLL_HOR(U_MOUSE_SCROLL_MAX)
 
+&lt 	{
+    	tapping-term-ms = <300>;
+    	};
+
 &mmv	{
 	time-to-max-speed-ms = <600>;
 	acceleration-exponent=<1>;
 	};
 
-&sk {
+&sk 	{
 	quick-release;
-};
+	};
 
 / {
 	keymap {
