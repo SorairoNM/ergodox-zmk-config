@@ -27,6 +27,10 @@
 &lt 	{
     	tapping-term-ms = <250>;
     	};
+	
+&mt 	{
+    	tapping-term-ms = <250>;
+    	};
 
 &mmv	{
 	time-to-max-speed-ms = <600>;
