@@ -48,8 +48,8 @@
 				&kp CAPS   &kp A    &kp S    &kp D   &kp F    &kp G                                    &kp H     &kp J   &kp K    &kp L    &kp SEMI &kp SQT
 				&kp LSHIFT &kp Z    &kp X    &kp C   &kp V    &kp B        &mt LCTRL RET &mt RCTRL ESC &kp N     &kp M   &kp CMMA &kp DOT  &kp FSLH &kp RSHIFT
 				&kp LCTRL  &kp HOME &kp RALT &kp F18 &kp BSPC                                                    &kp SPC &kp F24  &kp F23  &kp END  &tog 1
-				                                              &mt LALT F23 &kp PG_UP     &kp HOME      &kp F22   &lt 2 F19
-				                                     &kp SPC  &kp DOWN     &kp PG_DN     &kp END       &kp RARW 
+				                                              &mt LALT F23 &kp PG_UP     &kp HOME      &kp F22
+				                                     &kp SPC  &kp DOWN     &kp PG_DN     &kp END       &kp RARW  &lt 2 F19
 				                                                           &kp UP        &kp LARW
 			>;
 		};
