@@ -60,14 +60,14 @@
 		layer_1 {
 			bindings = <
 				&bootloader
-				&trans &trans &trans &trans    &trans    &trans &trans &trans &trans &trans         &trans          &trans &trans &trans
-				&trans &trans &trans &trans    &trans    &trans &trans &trans &trans &trans         &trans          &trans &trans &trans
-				&trans &trans &trans &kp PLUS  &kp EQUAL &trans               &trans &kp MINUS      &kp UNDERSCORE  &trans &trans &trans
-				&trans &trans &trans &kp LBKT  &kp RBKT  &trans &trans &trans &trans &kp LEFT_BRACE &kp RIGHT_BRACE &trans &trans &trans
-				&trans &trans &trans &trans    &trans                                &trans         &trans          &trans &trans &trans
-				                                         &trans &trans &trans &trans
-				                               &trans    &trans &trans &trans &trans &trans
-				                                                &trans &trans
+				&trans &trans  &trans  &trans    &trans &trans &trans  &trans    &trans &trans &trans &trans &trans &trans
+				&trans &trans  &trans  &trans    &trans &trans &trans  &trans    &trans &trans &trans &trans &trans KP_ENTER
+				&trans &trans  &trans  &trans    &trans &trans                   &trans &trans &trans &trans &trans &trans
+				&trans &trans  &trans  &trans    &trans &trans &kp RET &kp GRAVE &trans &trans &trans &trans &trans &trans
+				&trans &kp DEL &kp INS &kp EQUAL &trans                                 &trans &trans &trans &trans &trans
+				                                        &kp F1 &trans  &trans    &trans
+				                                 &trans &trans &trans  &trans    &trans &kp LBKT
+				                                               &trans  &trans
 			>;
 		};
 		layer_2 {
