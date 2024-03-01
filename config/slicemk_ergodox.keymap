@@ -6,7 +6,7 @@
 
 #undef ZMK_MOUSE_DEFAULT_MOVE_VAL
 #undef ZMK_MOUSE_DEFAULT_SCRL_VAL
-#define ZMK_MOUSE_DEFAULT_MOVE_VAL 8000
+#define ZMK_MOUSE_DEFAULT_MOVE_VAL 32000
 #define ZMK_MOUSE_DEFAULT_SCRL_VAL 50
 
 &lt 	{
@@ -16,6 +16,11 @@
 &mt 	{
     	tapping-term-ms = <250>;
     	};
+
+&mmv	{
+	time-to-max-speed-ms = <3200>;
+	acceleration-exponent=<1>;
+	};
 
 &sk 	{
 	quick-release;
