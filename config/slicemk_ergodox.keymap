@@ -17,10 +17,6 @@
     	tapping-term-ms = <250>;
     	};
 
-&mmv	{
-	acceleration-exponent=<1>;
-	};
-
 &sk 	{
 	quick-release;
 	};
