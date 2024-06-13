@@ -3,7 +3,6 @@ manifest:
     - name: slicemk
       url-base: https://github.com/slicemk
   projects:
-    - name: slicemk-zmk
     - name: zmk
       remote: slicemk
       revision: main
