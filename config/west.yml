@@ -1,11 +1,11 @@
 manifest:
   remotes:
     - name: slicemk
-      url-base: https://github.com/SorairoNM
+      url-base: https://github.com/slicemk
   projects:
-    - name: slicemk-zmk
+    - name: zmk
       remote: slicemk
-      revision: v20230228-mouse
+      revision: main
       import: app/west.yml
   self:
     path: config
